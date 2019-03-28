@@ -9,9 +9,9 @@ EventDriver 设计就是解决这一问题
 ### 订阅消息
 
  
-  EventDriver.find<String>("tom").observe(this, Observer {
+     EventDriver.find<String>("tom").observe(this, Observer {
          
         })
 ### 发送消息
 
-  EventDriver.notify<String>("tom") of "goodMorning"
+     EventDriver.notify<String>("tom") of "goodMorning"

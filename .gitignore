@@ -1,0 +1,5 @@
+# Created by .ignore support plugin (hsz.mobi)
+app/libs/
+build/
+eventdriver/libs/
+eventdriver/src/main/res/drawable/

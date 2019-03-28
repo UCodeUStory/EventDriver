@@ -25,7 +25,7 @@ class SecondActivity : AppCompatActivity() {
                 for (i in 0 until  1000){
                     sleep(500)
                     runOnUiThread {
-                        com.ustory.eventdriver.EventDriver.notify<String>("tom") of "goodMorning"
+                        EventDriver.notify<String>("tom") of "goodMorning"
                     }
                 }
             }
